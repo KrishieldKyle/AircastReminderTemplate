@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+#daily-reminder {
+	width: 100vw;
+    height: 100vh;
+    font-size: 4vh;
+    background-image: radial-gradient(circle, MediumSeaGreen, black);
+    overflow: hidden;
+    color: white;
+}
+
+#daily-reminder #logoID{
+	width: 20em;
+}
+
+#daily-reminder #logodiv{
+	display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5em;
+    margin-right: 2em;
+}
+
+#daily-reminder #reminder{
+	display: flex;
+    justify-content: flex-end;
+    height: 3.5em;
+    margin-left: 1em;
+    margin-right: 2em;
+	font-size: 3em;
+	text-align: right;
+	opacity: 0.8;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: bold;
+	line-height: 90%;
+}
+
+#daily-reminder #underscore{
+	display: flex;
+    justify-content: flex-end;
+    margin-right: 0.7em;
+	font-size: 3.5em;
+	font-weight: bold;
+	font-family: 'Century Gothic', sans-serif;
+	opacity: 0.8;
+	line-height: 0%;
+}
+
+#daily-reminder #aircastlink{
+	display: flex;
+    justify-content: flex-end;
+    margin-right: 2em;
+    line-height: 0%;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	opacity: 0.8;
+}
